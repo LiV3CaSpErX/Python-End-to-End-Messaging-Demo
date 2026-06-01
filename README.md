@@ -18,18 +18,18 @@ Note: you should have set necessary DB_information (like DB_HOST, DB_USER, DB_PA
    
 4. Type "python createUser.py"  
    3.1 You should see:-
-
+   ```
     Welcome to User Registration System
     Enter your username:
     Enter your password:
 
     Enter the username and password you wanna Register to the System
-
+   ```
     3.2. If the user is registered successfully. You should see:-
 
     User registered successfully
 
----
+
 
 ## AES key Generating (for server)
 
