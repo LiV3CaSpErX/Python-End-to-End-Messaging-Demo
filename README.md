@@ -11,10 +11,10 @@ User Creation and Registration
 Note: you should have set necessary DB_information (like DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE) inside environment variables (.env file)
 
 1. Open terminal
-2. CD to the server/db directory
+2. CD to the server/db directory  
    2.1 db directory should contain createSchema.py and createUser.py
    2.2 For First time starting Program, you need to run createSchema.py to create database Schema.
-3. Type "python createUser.py"
+3. Type "python createUser.py"  
    3.1 You should see:-
 
     Welcome to User Registration System
@@ -33,7 +33,7 @@ AES key Generating (for server)
 
 1. Open terminal
 2. CD to the server directory
-3. Type "python aesKeyGenerate.py"
+3. Type "python aesKeyGenerate.py"  
    3.1 You should see:-
 
     Generating a 256-bits AES key ...
@@ -51,7 +51,7 @@ Note: you should have set some rsa secret passphase to encrypt the rsa private k
 
 1. Open terminal
 2. CD to the server or client directory
-3. Type "python rsaKeyGenerate.py"
+3. Type "python rsaKeyGenerate.py"  
    3.1 for server side, You should see:-
 
     A Simple Program for RSA key pair Generating
