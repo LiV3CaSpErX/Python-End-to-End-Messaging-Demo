@@ -91,64 +91,79 @@ Server Setup Part:
 2. CD to the server directory (using terminal 1)  
    2.1 Server directory should contain server.py and menu_today.txt files
    
-3. Type "python server.py"  
-   3.1 In server You should see:-  
+3. Type ```"python server.py"```    
+   3.1 In server You should see:-
+      ```
       a. Socket Created  
       b. Socket bind complete  
       c. Socket now listening  
       Your server program is successfully setup and is listening for connection now
-
+      ```
 Client Part:  
 
 4. CD to the client directory (using terminal 2)  
    4.1 Client directory should contain client.py and day_end.csv files
 
-5. Type "python client.py"  
+5. Type ```"python client.py"```   
    5.1 In client You should see:-  
 
+   ```
     Sending client public key
     sending client public key has been completed
     Received server public key
     Export server public key has been completed
     Creating session  
-
-    5.2 In client You should also see:-  
-
+   ```
+   
+    5.2 In client You should also see:-
+   
+   ```
     Enter Username:
-
+   ```
+   
     5.3 Type in the username
 
     5.4 After that You should see:-
 
+   ```
     Enter Password:
-
+   ```
+   
     5.5 Type in the password
 
     5.6 OTP will Send via Telegram and You should see:-
 
+   ```
     Enter OTP:
-
+   ```
+   
     5.7 Type in the OTP
 
     5.8 After Successful login. Client will receive Today Menu from Server. You should see:-
 
+   ```
     Session Successfully Created
     receiving Today Menu from server
     HMAC verification passed! Data integrity maintained.
     Successfully received Today Menu from server
-
+   ```
+   
     5.9 After that Client will send Closing Day information to Sever. You should see:-
 
+   ```
     Sending HMAC of sale of the day
     Sending signature of sale of the day
     sending Sale of the day data to server
     Successfully Sent Sale of the day to server
-
+   ```
+   
     5.10 If everything is done Connection terminated and back to command prompt. You should see:-
 
+   ```
     Connection closed  
-
-6. You should see menu.csv file in the client directory
+   ```
+   
+7. You should see menu.csv file in the client directory
 
 Server Part :  
 
