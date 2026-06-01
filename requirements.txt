@@ -1,0 +1,6 @@
+mysql-connector-python 
+bcrypt
+requests
+pycryptodome (or pycryptodomex if pycryptodome does not work)
+dotenv
+pyotp
