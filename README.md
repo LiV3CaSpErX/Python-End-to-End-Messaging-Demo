@@ -84,27 +84,30 @@ Using the Program (client and server)
 
 1. Run 2 separate terminal
 
-Server Setup Part: 2. CD to the server directory (using terminal 1)
-2.1 Server directory should contain server.py and menu_today.txt files 3. Type "python server.py"
-3.1 In server You should see:-
-a. Socket Created
-b. Socket bind complete
-c. Socket now listening
-Your server program is successfully setup and is listening for connection now
+Server Setup Part:  
+2. CD to the server directory (using terminal 1)  
+   2.1 Server directory should contain server.py and menu_today.txt files   
+3. Type "python server.py"  
+   3.1 In server You should see:-  
+      a. Socket Created  
+      b. Socket bind complete  
+      c. Socket now listening  
+      Your server program is successfully setup and is listening for connection now
 
-Client Part: 4. CD to the client directory (using terminal 2)
-4.1 Client directory should contain client.py and day_end.csv files
+Client Part:  
+4. CD to the client directory (using terminal 2)  
+   4.1 Client directory should contain client.py and day_end.csv files
 
-5. Type "python client.py"
-   5.1 In client You should see:-
+5. Type "python client.py"  
+   5.1 In client You should see:-  
 
     Sending client public key
     sending client public key has been completed
     Received server public key
     Export server public key has been completed
-    Creating session
+    Creating session  
 
-    5.2 In client You should also see:-
+    5.2 In client You should also see:-  
 
     Enter Username:
 
@@ -138,13 +141,14 @@ Client Part: 4. CD to the client directory (using terminal 2)
 
     5.10 If everything is done Connection terminated and back to command prompt. You should see:-
 
-    Connection closed
+    Connection closed  
 
 6. You should see menu.csv file in the client directory
 
-Server Part 7. Server will accept connection from the clients
+Server Part :  
+7. Server will accept connection from the clients  
 
-7.1 If the Client Connect to Server. You should see:-
+7.1 If the Client Connect to Server. You should see:-  
 
 Accepting connection from (client_ip:port)
 Received client public key
@@ -153,7 +157,7 @@ Sending server public key
 Sending public key has been completed
 Connection (client_ip:port) :ended
 
-7.2 If the Client Try to create a Session. You should see:-
+7.2 If the Client Try to create a Session. You should see:-  
 
 Accepting connection from (client_ip:port)
 Received CREATE_SESSION request
