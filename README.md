@@ -87,7 +87,8 @@ Using the Program (client and server)
 Server Setup Part:
 
 2. CD to the server directory (using terminal 1)  
-   2.1 Server directory should contain server.py and menu_today.txt files   
+   2.1 Server directory should contain server.py and menu_today.txt files
+   
 3. Type "python server.py"  
    3.1 In server You should see:-  
       a. Socket Created  
