@@ -16,7 +16,7 @@ Note: you should have set necessary DB_information (like DB_HOST, DB_USER, DB_PA
    
    2.2. For First time starting Program, you need to run createSchema.py to create database Schema.
    
-4. Type "python createUser.py"  
+4. Type ```"python createUser.py"```
    3.1 You should see:-
    ```
     Welcome to User Registration System
