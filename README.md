@@ -26,23 +26,23 @@ Note: you should have set necessary DB_information (like DB_HOST, DB_USER, DB_PA
     Enter the username and password you wanna Register to the System
    ```
     3.2. If the user is registered successfully. You should see:-
-
+   ```
     User registered successfully
-
+   ```
 
 
 ## AES key Generating (for server)
 
 1. Open terminal
 2. CD to the server directory
-3. Type "python aesKeyGenerate.py"  
+3. Type ```"python aesKeyGenerate.py"``` 
    3.1 You should see:-
-
+   ```
     Generating a 256-bits AES key ...
     The key is generated.
     Encoded AES key: some random key with encoded format (eg. rUpAR4yUVqh5Kvyyvlgp8yJ93D3kYrsGsZtSZCXMCWI=)
     aes key verification: PASSED
-
+   ```
 4. You can copy the key and paste in the environment variables (.env file) for encrypting and decrypting data at rest
 
 ---
@@ -53,9 +53,9 @@ Note: you should have set some rsa secret passphase to encrypt the rsa private k
 
 1. Open terminal
 2. CD to the server or client directory
-3. Type "python rsaKeyGenerate.py"  
+3. Type ```"python rsaKeyGenerate.py"``` 
    3.1 for server side, You should see:-
-
+   ```
     A Simple Program for RSA key pair Generating
     Generating an RSA key pair...
     Done generating the key pair.
@@ -66,9 +66,9 @@ Note: you should have set some rsa secret passphase to encrypt the rsa private k
     now try to import back the key pair (the private key)
     Restored the key pair successfully
     Restored the public key successfully
-
+   ```
     3.2 for client side, You should see:-
-
+   ```
     A Simple Program for RSA key pair Generating
     Generating an RSA key pair...
     Done generating the key pair.
@@ -79,7 +79,7 @@ Note: you should have set some rsa secret passphase to encrypt the rsa private k
     now try to import back the key pair (the private key)
     Restored the key pair successfully
     Restored the public key successfully
-
+   ```
 ---
 
 ## Using the Program (client and server)
