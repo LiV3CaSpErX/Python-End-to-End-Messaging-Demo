@@ -96,7 +96,7 @@ Server Setup Part:
       c. Socket now listening  
       Your server program is successfully setup and is listening for connection now
 
-Client Part:
+Client Part:  
 4. CD to the client directory (using terminal 2)  
    4.1 Client directory should contain client.py and day_end.csv files
 
