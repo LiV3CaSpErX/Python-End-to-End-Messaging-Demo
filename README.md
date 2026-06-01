@@ -86,7 +86,7 @@ Using the Program (client and server)
 
 Server Setup Part:
 
-2. CD to the server directory (using terminal 1)
+2. CD to the server directory (using terminal 1)  
    2.1 Server directory should contain server.py and menu_today.txt files   
 3. Type "python server.py"  
    3.1 In server You should see:-  
@@ -95,7 +95,7 @@ Server Setup Part:
       c. Socket now listening  
       Your server program is successfully setup and is listening for connection now
 
-Client Part:  
+Client Part:
 4. CD to the client directory (using terminal 2)  
    4.1 Client directory should contain client.py and day_end.csv files
 
