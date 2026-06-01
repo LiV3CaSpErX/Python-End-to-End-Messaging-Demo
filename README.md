@@ -149,6 +149,7 @@ Client Part:
 6. You should see menu.csv file in the client directory
 
 Server Part :  
+
 7. Server will accept connection from the clients  
 
 7.1 If the Client Connect to Server. You should see:-  
