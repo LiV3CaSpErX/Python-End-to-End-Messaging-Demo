@@ -150,7 +150,7 @@ Client Part:
 
 Server Part :  
 
-7. Server will accept connection from the clients  
+7. Server will accept connection from the clients
 
 7.1 If the Client Connect to Server. You should see:-  
 
