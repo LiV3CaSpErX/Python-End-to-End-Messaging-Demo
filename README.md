@@ -6,7 +6,7 @@ Please Disable the Telegram Bot to sending OTP and print out the OTP if you wann
 
 ---
 
-# User Creation and Registration
+## User Creation and Registration
 
 Note: you should have set necessary DB_information (like DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE) inside environment variables (.env file)
 
@@ -29,7 +29,7 @@ Note: you should have set necessary DB_information (like DB_HOST, DB_USER, DB_PA
 
 ---
 
-# AES key Generating (for server)
+## AES key Generating (for server)
 
 1. Open terminal
 2. CD to the server directory
@@ -45,7 +45,7 @@ Note: you should have set necessary DB_information (like DB_HOST, DB_USER, DB_PA
 
 ---
 
-# RSA key Generating (for both server and client)
+## RSA key Generating (for both server and client)
 
 Note: you should have set some rsa secret passphase to encrypt the rsa private key inside environment variables (.env file)
 
@@ -80,7 +80,7 @@ Note: you should have set some rsa secret passphase to encrypt the rsa private k
 
 ---
 
-# Using the Program (client and server)
+## Using the Program (client and server)
 
 1. Run 2 separate terminal
 
@@ -202,7 +202,7 @@ Server Part :
 
 ---
 
-# Reading Encrypted Data at rest
+## Reading Encrypted Data at rest
 
 1. Open terminal
 2. CD to the server directory
