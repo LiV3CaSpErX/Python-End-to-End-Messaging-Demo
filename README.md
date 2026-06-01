@@ -150,54 +150,53 @@ Client Part:
 
 Server Part :  
 
-7. Server will accept connection from the clients
+7. Server will accept connection from the clients    
+   7.1 If the Client Connect to Server. You should see:-  
 
-7.1 If the Client Connect to Server. You should see:-  
+   Accepting connection from (client_ip:port)
+   Received client public key
+   Export client public key has been completed
+   Sending server public key
+   Sending public key has been completed
+   Connection (client_ip:port) :ended
 
-Accepting connection from (client_ip:port)
-Received client public key
-Export client public key has been completed
-Sending server public key
-Sending public key has been completed
-Connection (client_ip:port) :ended
+   7.2 If the Client Try to create a Session. You should see:-  
+   
+   Accepting connection from (client_ip:port)
+   Received CREATE_SESSION request
+   Verifying user
+   
+   7.3 If the Client enter the Correct credential (username, password),
+   Server will generate OTP and sent via Telegram. You should see:-
+   
+   Sending OTP for verification
+   
+   7.4 If the Client Enter the Correct OTP. Server will create the Session You should see:-
+   
+   Verifying OTP
+   OTP verified
+   User Authenticated
+   Session created
+   Session data sent
+   Connection (client_ip:port) :ended
 
-7.2 If the Client Try to create a Session. You should see:-  
-
-Accepting connection from (client_ip:port)
-Received CREATE_SESSION request
-Verifying user
-
-7.3 If the Client enter the Correct credential (username, password),
-Server will generate OTP and sent via Telegram. You should see:-
-
-Sending OTP for verification
-
-7.4 If the Client Enter the Correct OTP. Server will create the Session You should see:-
-
-Verifying OTP
-OTP verified
-User Authenticated
-Session created
-Session data sent
-Connection (client_ip:port) :ended
-
-7.5. If the Client Request to get menu from server, Server will send the menu to client. You should see:-
-
-Accepting connection from (client_ip:port)
-Received GET_MENU request
-Processed SENDING menu
-Connection (client_ip:port) :ended
-
-7.6. If the Client Request to save day-closing information to server,
-Server will accept day-closing information from client. You should see:-
-
-Accepting connection from (client_ip:port)
-Received Save_End_Day_Order request
-HMAC verification passed! Data integrity maintained.
-Signature verification passed! Sender verified.
-saving file as "result-<IP Address>.bin"
-Processed CLOSING done
-Connection (client_ip:port) :ended
+   7.5. If the Client Request to get menu from server, Server will send the menu to client. You should see:-
+   
+   Accepting connection from (client_ip:port)
+   Received GET_MENU request
+   Processed SENDING menu
+   Connection (client_ip:port) :ended
+   
+   7.6. If the Client Request to save day-closing information to server,
+   Server will accept day-closing information from client. You should see:-
+   
+   Accepting connection from (client_ip:port)
+   Received Save_End_Day_Order request
+   HMAC verification passed! Data integrity maintained.
+   Signature verification passed! Sender verified.
+   saving file as "result-<IP Address>.bin"
+   Processed CLOSING done
+   Connection (client_ip:port) :ended
 
 8. File "result-<IP Address>.bin" received by server
 
