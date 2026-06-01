@@ -13,8 +13,10 @@ Note: you should have set necessary DB_information (like DB_HOST, DB_USER, DB_PA
 1. Open terminal
 2. CD to the server/db directory  
    2.1 db directory should contain createSchema.py and createUser.py
+   
    2.2 For First time starting Program, you need to run createSchema.py to create database Schema.
-3. Type "python createUser.py"  
+   
+4. Type "python createUser.py"  
    3.1 You should see:-
 
     Welcome to User Registration System
